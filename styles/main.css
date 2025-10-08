@@ -1,0 +1,30 @@
+.corpo_pagina {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: 2em 1em;
+}
+.titulo {
+  font-family: var(--Fonte-secundaria);
+  font-size: 40px;
+  font-weight: 500;
+  padding: 0.5em 0;
+}
+
+.titulo_destaque {
+  color: var(--Roxo-Destaque);
+}
+
+.paragrafo__texto {
+  font-size: 20px;
+  padding-top: 1em;
+}
+.botao__demo {
+  text-decoration: none;
+  color: var(--OFF-WHITE);
+  background-color: var(--Roxo-Hover);
+  border: 3px solid var(--Roxo-Hover);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+}

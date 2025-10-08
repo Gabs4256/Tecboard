@@ -1,0 +1,19 @@
+@import url(./styles/header.css);
+@import url(./styles/main.css);
+
+:root {
+  --Roxo-Destaque: #9747ff;
+  --Roxo-Hover: #8233e8;
+  --OFF-WHITE: #ffffff;
+  --GRAFITE: #232323;
+  --Fundo-Dark: #0e1014;
+  --Fundo-Light: #0e1014;
+  --Fonte: "Poppins", sans-serif;
+  --Fonte-secundaria: "Unbounded", sans-serif;
+}
+
+body {
+  background-color: var(--Fundo-Dark);
+  color: var(--OFF-WHITE);
+  font-family: var(--Fonte);
+}
