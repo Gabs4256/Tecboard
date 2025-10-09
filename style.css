@@ -16,4 +16,6 @@ body {
   background-color: var(--Fundo-Dark);
   color: var(--OFF-WHITE);
   font-family: var(--Fonte);
+  font-weight: 400;
+  font-style: normal;
 }
