@@ -21,27 +21,45 @@
   </head>
 
   <body>
-    <header class="cabecalho">
-      <img src="./Assets/logo branco.png" alt="Logo Tecboard Branco" />
-      <img
-        src="./Assets/Modos branco.png"
-        alt="Mudar para fundo branco"
-        id="toggleTheme"
-      />
-    </header>
-    <main>
-      <section class="corpo_pagina">
-        <h1 class="titulo">
-          <strong class="titulo_destaque">Fique de olho</strong> <br />
-          no que importa
-        </h1>
-        <p class="paragrafo__texto">
-          Monitoramento em tempo real com alertas inteligentes para sua
-          aplicação nunca sair do ar sem você saber.
-        </p>
-        <a href="#" class="botao__demo">Testar versão demo</a>
-        <img src="./Assets/celulares 2.svg" alt="celulares mobile" />
-      </section>
-    </main>
+    <div class="container">
+      <header class="cabecalho">
+        <img
+          src="./Assets/logo branco.png"
+          alt="Logo Tecboard Branco"
+          class="logo"
+        />
+
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Alternar Tema"
+        >
+          <img src="/Assets/Modos branco.png" alt="Logo Branco" />
+        </button>
+      </header>
+      <main>
+        <section class="corpo_pagina">
+          <div class="corpo_pagina-bloco">
+            <h1 class="titulo">
+              <strong class="titulo_destaque">Fique de olho</strong><br />
+              no que importa
+            </h1>
+            <p class="paragrafo__texto">
+              Monitoramento em tempo real com alertas inteligentes para sua
+              aplicação nunca sair do ar sem você saber.
+            </p>
+            <a href="#" class="botao__demo">Testar versão demo</a>
+            <div class="imagem">
+              <img
+                src="./Assets/celulares 2.svg"
+                alt="celulares mobile"
+                class="imagem__mobile"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

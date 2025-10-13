@@ -15,7 +15,29 @@
 body {
   background-color: var(--Fundo-Dark);
   color: var(--OFF-WHITE);
+  min-height: 100vh;
+  transition: all 0.3s ease;
   font-family: var(--Fonte);
   font-weight: 400;
   font-style: normal;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Tema claro */
+.light-theme {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.light-theme .cabecalho img {
+  filter: invert(1);
+}
+
+.light-theme .botao__demo {
+  background-color: #6a0dad;
+  color: white;
+}
+
