@@ -44,7 +44,7 @@
   box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
 }
 .botao__demo:hover {
-  background: var(--Roxo-Destaque);
+  background-color: var(--Roxo-Hover);
   transform: translateY(-3px);
   box-shadow: 0 15px 40px rgba(168, 85, 247, 0.6);
 }
@@ -72,10 +72,11 @@
   .imagem__mobile {
     width: 500px;
     height: 400px;
-    position: relative;}
+    position: relative;
+  }
 }
-@media screen and (min-width: 1720px){
-  .paragrafo__texto{
+@media screen and (min-width: 1720px) {
+  .paragrafo__texto {
     max-width: 900px;
     white-space: normal;
     word-wrap: break-word;

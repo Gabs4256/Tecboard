@@ -1,20 +1,18 @@
-const toggleTheme = document.getElementById("themeToggle");
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
 const body = document.body;
 
-// Se o tema claro estava salvo antes
-if (localStorage.getItem("theme") === "light") {
-  body.classList.add("light-theme");
-  toggleTheme.src = "./Assets/icone-lua.png"; // ícone escuro
-}
+// Definir os caminhos das duas imagens
+const darkModeIcon = "./Assets/Modos branco.png";
+const lightModeIcon = "./Assets/Modos preto.png"; // ou o nome correto
 
-toggleTheme.addEventListener("click", () => {
-  body.classList.toggle("light-theme");
-
-  if (body.classList.contains("light-theme")) {
-    toggleTheme.src = "./Assets/icone-lua.png"; // ícone para tema claro
-    localStorage.setItem("theme", "light");
-  } else {
-    toggleTheme.src = "./Assets/Modos preto.png"; // ícone para tema escuro
-    localStorage.setItem("theme", "dark");
-  }
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+    
+    // Trocar a imagem baseado no tema
+    if (body.classList.contains('light-theme')) {
+        themeIcon.src = lightModeIcon;
+    } else {
+        themeIcon.src = darkModeIcon;
+    }
 });

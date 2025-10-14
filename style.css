@@ -26,18 +26,14 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-/* Tema claro */
-.light-theme {
-  background-color: #f5f5f5;
-  color: #111;
-}
 
-.light-theme .cabecalho img {
+.light-theme {
+  background-color: var(--OFF-WHITE);
+  color: var(--GRAFITE);
+}
+.light-theme .logo {
   filter: invert(1);
 }
-
-.light-theme .botao__demo {
-  background-color: #6a0dad;
-  color: white;
+.light-theme .paragrafo__texto{
+  color: var(--GRAFITE);
 }
-
