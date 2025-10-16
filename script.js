@@ -3,8 +3,8 @@ const themeIcon = document.getElementById('themeIcon');
 const body = document.body;
 
 // Definir os caminhos das duas imagens
-const darkModeIcon = "./Assets/Modos branco.png";
-const lightModeIcon = "./Assets/Modos preto.png"; // ou o nome correto
+const darkModeIcon = "./assets/Modos branco.png";
+const lightModeIcon = "./assets/Modos preto.png"; // ou o nome correto
 
 themeToggle.addEventListener('click', () => {
     body.classList.toggle('light-theme');
@@ -16,3 +16,4 @@ themeToggle.addEventListener('click', () => {
         themeIcon.src = darkModeIcon;
     }
 });
+
